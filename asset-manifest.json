@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/gulab/static/css/main.e0c70bf2.css",
-    "main.js": "/gulab/static/js/main.17bc979e.js",
+    "main.css": "/gulab/static/css/main.c7334855.css",
+    "main.js": "/gulab/static/js/main.142022ff.js",
     "static/js/787.c0818ed2.chunk.js": "/gulab/static/js/787.c0818ed2.chunk.js",
     "static/media/videoplayback.mp4": "/gulab/static/media/videoplayback.eabad66f3b0369842944.mp4",
     "static/media/bgfororder.jpg": "/gulab/static/media/bgfororder.515794f9e97f75eae736.jpg",
@@ -24,17 +24,17 @@
     "static/media/bapslogo.png": "/gulab/static/media/bapslogo.e7332576f8c88c4274a5.png",
     "static/media/fa-regular-400.ttf": "/gulab/static/media/fa-regular-400.d87474231f4192884802.ttf",
     "static/media/essarlogo.png": "/gulab/static/media/essarlogo.415f1ff49e37dbb87a9b.png",
-    "static/media/gulabvadiLogo.jpeg": "/gulab/static/media/gulabvadiLogo.fc9bcf8b8d023b597d20.jpeg",
+    "static/media/gulabvadiLogo.png": "/gulab/static/media/gulabvadiLogo.33a644372bceba390412.png",
     "static/media/fa-regular-400.woff2": "/gulab/static/media/fa-regular-400.3223dc79c1adee56370b.woff2",
     "static/media/fa-v4compatibility.ttf": "/gulab/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
     "static/media/fa-v4compatibility.woff2": "/gulab/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
     "index.html": "/gulab/index.html",
-    "main.e0c70bf2.css.map": "/gulab/static/css/main.e0c70bf2.css.map",
-    "main.17bc979e.js.map": "/gulab/static/js/main.17bc979e.js.map",
+    "main.c7334855.css.map": "/gulab/static/css/main.c7334855.css.map",
+    "main.142022ff.js.map": "/gulab/static/js/main.142022ff.js.map",
     "787.c0818ed2.chunk.js.map": "/gulab/static/js/787.c0818ed2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e0c70bf2.css",
-    "static/js/main.17bc979e.js"
+    "static/css/main.c7334855.css",
+    "static/js/main.142022ff.js"
   ]
 }
