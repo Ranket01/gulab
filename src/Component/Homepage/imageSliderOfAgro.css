@@ -38,7 +38,8 @@
     }
   
     #imagesliderdivofagro img {
-      width: 90%; /* Make image width 100% for mobile layout */
+      width: 90%;
+      height: 132%; /* Make image width 100% for mobile layout */
       padding-top: 15rem; /* Remove margin-top for mobile layout */
     }
   
@@ -52,6 +53,6 @@
   
     #divforbeforecontent {
       top: 16rem; /* Adjust as needed for mobile layout */
-      height: 156%; /* Adjust as needed for mobile layout */
+      height: 131%; /* Adjust as needed for mobile layout */
     }
   }

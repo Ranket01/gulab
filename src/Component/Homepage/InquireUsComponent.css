@@ -67,11 +67,10 @@
     font-weight: bold;
   }
   
-  /* Media Query for Responsive Design */
    @media (max-width: 768px) {
     .inquire-us-container {
       width: 100%;
-      padding: 20px;
+      padding: 0px 20px;
     }
   
     #textarea,

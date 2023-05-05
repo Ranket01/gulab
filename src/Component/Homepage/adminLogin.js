@@ -99,9 +99,9 @@ const AdminLogin = () => {
   return (
     <>
       {adminIsLogged && <AdminPanel />}
-      {!adminIsLogged && (
+      {!adminIsLogged && (<>
         <AdminLoginContainer id="mylogincontainer">
-          <AdminLoginHeader>Admin Login</AdminLoginHeader>
+          <AdminLoginHeader style={{textAlign:"center"}}>Admin Login</AdminLoginHeader>
           <AdminLoginInput
             type="email"
             placeholder="Email"
@@ -116,8 +116,10 @@ const AdminLogin = () => {
           />
           {error && <AdminLoginError>{error}</AdminLoginError>}
           <AdminLoginButton onClick={handleLogin}>Login</AdminLoginButton>
+          <h4 style={{marginTop:"16px", color:"#7e7eff"}}>This login is only for website's admin, not for user of website</h4>
         </AdminLoginContainer>
-      )}
+        
+      </>)}
 
       <footer id="myadminpagefooter">
         <p>&copy; Gulabvadi {new Date().getFullYear()}</p>

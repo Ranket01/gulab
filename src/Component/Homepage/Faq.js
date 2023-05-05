@@ -3,11 +3,11 @@ import React from "react";
 export default function Faq() {
   return (
     <>
-      <h2 style={{ textAlign: "center", margin: "2rem" }}>Why choose us?</h2>
+      <h1 style={{ textAlign: "center", margin: "6rem auto 1rem auto" }}>Why choose us?</h1>
       <div
         className="accordion accordion-flush"
         id="accordionFlushExample"
-        style={{ width: "70%", margin: "5px auto" }}
+        style={{ width: "90%", margin: "5px auto" }}
       >
         <div className="accordion-item">
           <h2 className="accordion-header">

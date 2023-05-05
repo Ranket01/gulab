@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import "../Homepage/Navbar.css";
 import LogoGulab from '../Homepage/Images/gulabvadiLogo.png'
@@ -9,10 +9,17 @@ export default function Navbar() {
   const authCtx = useContext(AuthContext)
   const adminIsLogged = authCtx.isLoggedIn
 
+  const [searchKeyword, setSearchKeyword]= useState(" ")
+
+
+  const searchButtonHandler=(e)=>{
+    e.preventDefault();
+    console.log(searchKeyword)
+  }
 
   return (
     <nav
-      className="navbar  navbar-expand-lg"
+      className="navbar fixed-top  navbar-expand-lg"
       style={{ backgroundColor: "#90d6b6" }}
     >
       <div className="container-fluid">
@@ -48,9 +55,15 @@ export default function Navbar() {
                 <b> Inquiry</b>
               </Link>
             </li>
+            <li className="nav-item ">
+              <Link className="nav-link" to="/blogs">
+                <b>Blogs</b>
+              </Link>
+            </li>
           </ul>
-          <form className="d-flex" role="search">
 
+
+          <form className="d-flex" role="search" onSubmit={searchButtonHandler}>
 
           {adminIsLogged &&   <button style={{
                 marginRight: "10px",
@@ -89,16 +102,13 @@ export default function Navbar() {
                 </strong>
             </button>  }
 
-             
-
-
-             
-
             <input
               className="form-control me-2"
               type="search"
               placeholder="Search"
               aria-label="Search"
+              value={searchKeyword}
+              onChange={(e)=>setSearchKeyword(e.target.value)}
             />
             <button className="btn btn-outline-success" type="submit">
               Search

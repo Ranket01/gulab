@@ -88,14 +88,19 @@
   }
   @media (max-width:768px){
     #divforbeforecontenttestimonial {
-        top: 125rem; /* Adjust as needed for mobile layout */
-        height: 224%; /* Adjust as needed for mobile layout */
+        top: 106rem;
+        height: 74%; 
       }
       .graphics-container {
        width:85%
       }
       .myheadingoftestimonial {
         font-size: 2rem;
+      }
+      .graphic {
+        margin: 0px;
+        width: 165px;
+        height: 154px;
       }
   }
   
