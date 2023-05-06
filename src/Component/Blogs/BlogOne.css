@@ -1,0 +1,60 @@
+.maindivforblogs{
+    margin: 6rem 3rem 3rem 21rem;
+    
+}
+.maindivforblogs h1{
+    font-size: 3rem;
+  color: #333;
+  text-align: center;
+  margin-top: 2rem;
+    
+}
+.maindivforblogs h2{
+        font-size: 2rem;
+        color: #333;
+        margin-top: 2rem;   
+}
+.maindivforblogs p{
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #8e8a8a;
+    margin-top: 1rem;   
+}
+
+
+.maindivforblogsFull{
+    margin: 6rem 3rem 3rem 2rem;
+    
+}
+.maindivforblogsFull h1{
+    font-size: 3rem;
+    color: #333;
+    text-align: center;
+    margin-top: 2rem;
+    
+}
+
+.maindivforblogsFull h2{
+    font-size: 2rem;
+    color: #333;
+    margin-top: 2rem;   
+}
+.maindivforblogsFull p{
+    font-size: 1.2rem;
+  line-height: 1.5;
+  color: #8e8a8a;
+  margin-top: 1rem;   
+}
+
+@media (max-width:768px){
+    .maindivforblogsFull h1{
+        font-size: 2rem;
+        
+        
+    } 
+    .maindivforblogsFull h2{
+        font-size: 1.5rem;
+           
+    }
+}
+

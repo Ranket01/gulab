@@ -1,0 +1,24 @@
+#myadminpagefooter {
+    background-color: #dcdbdb;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    margin-top: 12.78rem;
+  }
+  #mylogincontainer{
+    margin-top:82px;
+
+  }
+  
+  @media (max-width: 768px) {
+    #myadminpagefooter {
+      position: relative;
+      margin-top: 16.7rem;
+      width: 100vw;
+    }
+    #mylogincontainer{
+        margin-top: 90px;
+        width:70%;
+        padding:1rem;
+      }
+  }

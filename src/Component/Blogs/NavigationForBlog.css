@@ -1,0 +1,53 @@
+.navbar-containerForBlog {
+  position: fixed;
+  top: 4rem;
+  left: 0;
+  bottom: 0;
+  width: 19rem;
+  overflow-y: auto;
+  background-color: #f5f5f5;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.navbar-containerForBlogNone {
+  display: none;
+}
+
+.nav-itemOfBlog {
+  display: block;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+}
+
+.nav-itemOfBlogNone {
+  display: none;
+}
+
+#togglebuttonForMenu {
+  position: absolute;
+  top: 5rem;
+  right:0.7rem;
+  padding: 5px 5px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  background-color: #ff9e54;
+  background-image: linear-gradient(to bottom, #ff6f00, #ff4f00);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+#togglebuttonForMenu:hover {
+  background-color: #ff4f00;
+  background-image: linear-gradient(to bottom, #ff4f00, #ff2f00);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.nav-itemOfBlog:hover {
+  background-color: #ddd;
+}
